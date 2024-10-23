@@ -1,4 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
+var awsAccessKeyId = "AKIAEXAMPLE1234567890";
+var awsSecretAccessKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
